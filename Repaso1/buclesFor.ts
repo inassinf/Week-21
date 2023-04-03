@@ -12,19 +12,19 @@
 // evenNumbers(10);
 
 // // Revertir un Array
-// let myArr = [];
-// function myRevert(myArr){
+let myArr = [];
+function myRevert(myArr){
 
-//     let nuevoArr;
-//     nuevoArr=[];
-//   for(let i= (myArr.length-1); i>=0; i--){
-//   nuevoArr.push(myArr[i]);
-//   }
-//  console.log(nuevoArr);
+    let nuevoArr;
+    nuevoArr=[];
+  for(let i= (myArr.length-1); i>=0; i--){
+  nuevoArr.push(myArr[i]);
+  }
+ console.log(nuevoArr);
  
-// }
+}
 
-// myRevert([1,3,5,7])
+myRevert([1,3,5,7])
 
 //Funcion Colores del Arcoiris
 
@@ -42,14 +42,14 @@
 
 //Funcion Suma de Palabras
 
-// function add(myWords){
+function add(myWords){
 
-//     let sumaLetras=0;
-//     for (let i= 0; i<myWords.length; i++){
-//         sumaLetras += myWords[i].length;
-//     }
-//     console.log("El total de letras es: " + sumaLetras);   
-// }
+    let sumaLetras=0;
+    for (let i= 0; i<myWords.length; i++){
+        sumaLetras += myWords[i].length;
+    }
+    console.log("El total de letras es: " + sumaLetras);   
+}
 
-// add(["rojo", "azul"]);
+add(["rojo", "azul"]);
 
