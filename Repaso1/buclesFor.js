@@ -1,4 +1,7 @@
+"use strict";
 // //Numeros Impares
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.add = void 0;
 // function evenNumbers(num){
 //     for(let i=0; i<num; i++){
 //         if(i%2!=0){
@@ -32,6 +35,7 @@ function add(myWords) {
     for (var i = 0; i < myWords.length; i++) {
         sumaLetras += myWords[i].length;
     }
-    console.log("El total de letras es: " + sumaLetras);
+    return sumaLetras;
 }
-add(["rojo", "azul"]);
+exports.add = add;
+// console.log("El total de letras es: " + add(["rojo", "azul"]));
