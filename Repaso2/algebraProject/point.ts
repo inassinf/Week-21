@@ -62,6 +62,19 @@ calcularQuadrant():number{
     return cuadrante;
 }
 
+calculateNearest(points : Point[]) : Point{
+     let menor = this.calculateDistance(points[0]);
+     let nearest:Point = points[0];
+
+    for(let i=0; i<points.length; i++){
+        if(this.calculateDistance(points[i])<menor){
+            menor= this.calculateDistance(points[i]);
+            nearest= points[i];
+        }
+    }
+    return nearest;
+}
+
 }
 
 
