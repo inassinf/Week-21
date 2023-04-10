@@ -45,6 +45,22 @@ calculateDistance(anotherPoint:Point):number{
     distancia2 = Math.sqrt((horizontal*horizontal) + (vertical*vertical));
     return distancia2;
 }
+calcularQuadrant():number{
+    let cuadrante;
+    if (this.x==0 && this.y==0) {
+        cuadrante=0;
+    } else if(this.x>0 && this.y>0) {
+        cuadrante=1;
+    }else if (this.x<0 && this.y>0) {
+        cuadrante=2;
+    } else if(this.x<0 && this.y<0) {
+        cuadrante=3;
+    } else{
+        cuadrante=4;
+    }
+
+    return cuadrante;
+}
 
 }
 

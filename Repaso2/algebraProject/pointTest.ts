@@ -13,3 +13,5 @@ punto1.setY(5);
 console.log(punto1.toString());
 console.log("La distancia del " + punto1 + " al " + punto2+   "es: " + punto1.calculateDistance(punto2));
 
+console.log("El cuadrante del punto1 es: " + punto1.calcularQuadrant());
+console.log("El cuadrante del punto2 es: " + punto2.calcularQuadrant());
